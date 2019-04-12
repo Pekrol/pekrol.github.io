@@ -1,17 +1,17 @@
 /*Selector {
 	Property: value;
 }*/
+html{
+	font-family: 'Comfortaa', cursive;
+}
 .logo{
-	
 	color: #2aada9;
 	font-weight: 600;
 	border: 2px solid #2aada9;
-	
 }
 body{
 	margin: auto 0;
 }
-
 .zone{
 	cursor: pointer;
 	color: rgb(5, 5, 5);
@@ -23,7 +23,6 @@ body{
 .zone:hover{
 
 }
-
 /* NAV */
 .main-nav{
 	display: flex;
@@ -47,17 +46,14 @@ body{
 }
 .tools a{
 	display: block;
-	width: 26px;
-	height: 26px;
+	width: 33px;
+	height: 33px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-size: 26px 26px; 
+	background-size: 33px 33px; 
 	font-size: 0;
 }
-.search{
-	background-image: url(../img/lupa2.png);
-	background-color: rgb(61, 61, 61);
-}
+
 .tw{
 	background-image: url(../img/Twitter-header.png)
 }
@@ -70,29 +66,28 @@ body{
 		padding: 0;
 	}
 	.red{
+		font-size: 0.5em;
 		padding: 0;
 	}
 }
-
 .push{
 	margin-left: auto;
 }
-
 li{
 	padding: 20px;
 }
-
 a{
 	color: blanchedalmond;
 	text-shadow: 2px 2px 0 #000000, 2px 2px 5px #000000;
 	text-decoration: none;
 }
 h2{
-	font-family: 'Comfortaa', cursive;
 	font-size: 1em;
 }
 p{
 	text-align: center;
+	margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
 }
 /* COVER */
 
@@ -100,9 +95,12 @@ p{
 	display: flex;
 	justify-content: center;
 	height: 100vh;
-	background-image: url(../img/brooke-lark-158028-unsplash.jpg);
+	background-image: url(../img/nolan-simmons-1292496-unsplash.jpg);
 	background-size: cover;
-	 
+	margin: 0;
+}
+.opis p{
+	font-size: 0.5em;
 }
 
 /* GRID */
@@ -118,6 +116,14 @@ p{
 .box{
 	padding: 10px;
 	margin: 20px;
+}
+.red{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	background-image: url(../img/nolan-simmons-1292496-unsplash.jpg);
+	background-size: cover;
+	margin: 0;
 }
 footer{
 	text-align: center;
