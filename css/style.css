@@ -1,11 +1,18 @@
 /*Selector {
 	Property: value;
 }*/
-
+html{
+	font-family: 'Comfortaa', cursive;
+}
 body{
 	margin: auto 0;
+	
 }
-
+.logo{
+	color: #2aada9;
+	font-weight: 600;
+	border: 2px solid #2aada9;
+}
 .zone{
 	cursor: pointer;
 	color: rgb(194, 137, 137);
@@ -25,7 +32,12 @@ body{
 	list-style: none;
 	font-size: 0.7cm;
 	margin: 0;
+	background-image: url(../img/cropped-audio-dj-mix-63703-7.jpg);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
+
 
 @media only screen and (max-width: 600px){
 	.main-nav{
@@ -35,14 +47,75 @@ body{
 }
 
 .push{
+	display: flex;
 	margin-left: auto;
+	list-style: none;
 }
 
 li{
 	padding: 20px;
+
 }
 
 a{
-	color: #6161d4;
+	color: #b9b9e2;
 	text-decoration: none;
+}
+/* COVER */
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-size: cover;
+	
+}
+.red p{
+	color: black;
+	text-align: center;
+}
+/* GRID */
+.flex-wrapper{
+	display: flex;
+}
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, margin(350px, 1fr))
+}
+
+.box > img{
+	width: 100%;
+}
+.box{
+	background-color: darkgrey;
+	padding: 20px;
+	margin: 20px;
+}
+footer{
+	text-align: center;
+}
+/* tymczasem kolorki*/
+.blue{
+	background: rgb(174, 174, 243);
+}
+.pink{
+	background: pink;
+}
+.green{
+	background: rgb(203, 247, 203);
+}
+.red{
+	background-image: url(../img/nolan-simmons-1292496-unsplash.jpg);
+	
+}
+.yellow{
+	background: rgb(241, 241, 213);
+}
+a{
+	font-size: 1em;
+}
+p{
+	font-size: 0.5em;
 }
